@@ -1,0 +1,43 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+button {
+    cursor: pointer;
+    min-width: 6rem;
+    padding: 1rem 0.5rem;
+}
+
+#container {
+    height: 60vh;
+    width: 30vw;
+    padding: 1rem;
+    margin: 3rem;
+    border: solid blue;
+    border-radius: 2rem;
+}
+
+#div-punchline{
+    min-height: 50px;
+}
+
+#setup {
+    min-height: 50px;
+}
